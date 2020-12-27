@@ -15,7 +15,7 @@ old_golang() {
 }
 
 new_golang() {
-  GOROOT=/usr
+  GOROOT=/usr/lib/go
   go=$GOROOT/bin/go
 }
 
